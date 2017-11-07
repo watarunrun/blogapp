@@ -8,6 +8,4 @@ Environment::configure('test', false, [
 	'MYSQL_PREFIX' => '',
 ], function() {
 	CakePlugin::load('Bdd');
-	CakePlugin::load('Fabricate');
-	Configure::write('app.disableValidatePost', true);
 });
